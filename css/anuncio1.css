@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #171719;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.anuncio-detalle {
+  padding: 20px;
+}
+
+.imagen-anuncio {
+  width: 300px;
+  margin: 0 auto 20px;
+}
+
+.imagen-anuncio img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.info-anuncio {
+  background-color: white;
+  border-radius: 12px;
+  padding: 20px;
+  color: #000;
+}
+
+.info-anuncio h2 {
+  margin-top: 0;
+  font-size: 20px;
+}
+
+.info-anuncio p {
+  margin-bottom: 10px;
+  line-height: 22px;
+  font-size: 15px;
+}
+
+.info-anuncio ul {
+  padding-left: 20px;
+  margin: 0;
+}
+
+.info-anuncio li {
+  margin-bottom: 5px;
+  font-size: 15px;
+}
+
+@media (min-width: 768px) {
+  .imagen-anuncio {
+    width: 400px;
+  }
+
+  .imagen-anuncio img {
+    width: 400px;
+    height: 350px;
+  }
+
+  .info-anuncio {
+    padding: 30px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .imagen-anuncio {
+    width: 500px;
+  }
+
+  .imagen-anuncio img {
+    width: 500px;
+    height: 400px;
+  }
+}
